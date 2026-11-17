@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="es" id="inicio">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Presentación del protocolo de investigación sobre las cuestiones éticas e implicaciones de la inteligencia artificial.">
+
+    <title>La IA que todos conocemos | Protocolo de investigación</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Encabezado principal -->
+    <header class="encabezado">
+
+        <section class="identidad">
+            <a class="enlace-instituto" href="#inicio" aria-label="Volver al inicio">
+                <img
+                    class="logo-instituto"
+                    src="img/logo-ito.png"
+                    alt="Logotipo del Instituto Tecnológico de Oaxaca"
+                >
+            </a>
+
+            <p class="autor-izquierdo">ODLCD</p>
+
+            <p class="nombre-protocolo">PROTOCOLO</p>
+
+            <p class="autor-derecho">PZUMR</p>
+        </section>
+
+        <!-- Navegación interna -->
+        <nav class="navegacion" aria-label="Navegación principal">
+            <ul class="lista-navegacion">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#problematica">Problemática</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#temas">Temas</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#documento">Documento</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Presentación -->
+        <section class="portada" aria-labelledby="titulo-investigacion">
+
+            <p class="nombre-instituto">Instituto Tecnológico de Oaxaca</p>
+            <p class="nombre-materia">Taller de Investigación I</p>
+
+            <h1 id="titulo-investigacion">La IA que todos conocemos</h1>
+
+            <p class="subtitulo">
+                Cuestiones éticas e implicaciones de su desarrollo y uso
+            </p>
+
+            <a class="boton-principal" href="#problematica">
+                Explorar investigación
+            </a>
+
+            <p class="contador-visitas">
+                Visitas:
+                <span id="total-visitas">—</span>
+            </p>
+
+        </section>
+
+        <!-- Problemática -->
+        <section
+            class="seccion seccion-izquierda"
+            id="problematica"
+            aria-labelledby="titulo-problematica"
+        >
+            <h2 id="titulo-problematica">Problemática</h2>
+
+            <p data-contenido="problematica"></p>
+        </section>
+
+        <!-- Objetivos -->
+        <section
+            class="seccion seccion-derecha"
+            id="objetivos"
+            aria-labelledby="titulo-objetivos"
+        >
+            <h2 id="titulo-objetivos">Objetivos</h2>
+
+            <p data-contenido="objetivo-general"></p>
+        </section>
+
+        <!-- Temas principales -->
+        <section
+            class="seccion seccion-izquierda"
+            id="temas"
+            aria-labelledby="titulo-temas"
+        >
+            <h2 id="titulo-temas">Temas principales</h2>
+
+            <ul class="lista-temas" data-lista="temas"></ul>
+        </section>
+
+        <!-- Metodología -->
+        <section
+            class="seccion seccion-derecha"
+            id="metodologia"
+            aria-labelledby="titulo-metodologia"
+        >
+            <h2 id="titulo-metodologia">Metodología</h2>
+
+            <p data-contenido="metodologia"></p>
+        </section>
+
+        <!-- Documento completo -->
+        <section
+            class="seccion-documento"
+            id="documento"
+            aria-labelledby="titulo-documento"
+        >
+            <h2 id="titulo-documento">Protocolo de investigación</h2>
+
+            <p class="descripcion-documento">
+                Consulta el documento completo o descárgalo.
+            </p>
+
+            <object
+                class="visor-pdf"
+                data="pdf/protocolo_investigacion_posfinal.pdf"
+                type="application/pdf"
+                aria-label="Protocolo de investigación en PDF"
+            >
+                <p>
+                    Tu navegador no puede mostrar el documento.
+                    <a href="pdf/protocolo_investigacion_posfinal.pdf">
+                        Abrir PDF
+                    </a>
+                </p>
+            </object>
+
+            <a
+                class="boton-descarga"
+                href="pdf/protocolo_investigacion_posfinal.pdf"
+                download
+            >
+                Descargar protocolo
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie-pagina">
+        <p>Instituto Tecnológico de Oaxaca</p>
+        <p>Taller de Investigación I — 2026</p>
+    </footer>
+
+</body>
+</html>
